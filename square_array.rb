@@ -1,7 +1,5 @@
 def square_array(array,exponent)
-  array.each {|number| number*exponent}
+  array.each do |number| number **2
 end
 
-array = [1,2,3]
 
-puts square_array(array,2)
